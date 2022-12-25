@@ -17,7 +17,6 @@ export const AccountDetails = () => {
         .filter(transaction => transaction < 0)
         .reduce((acc, transaction) => (acc += transaction), 0)
         ).toFixed(2);
-
     return (
         <div className="inc-exp-container">
             <div>
